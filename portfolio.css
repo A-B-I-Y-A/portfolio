@@ -19,7 +19,14 @@ h2 {
     margin-top:10px; /* Add this line to remove top margin */
 
 }
-
+.column{
+  width:100%;
+}
+@media(min-width:600px){
+  .column{
+    width:50%;
+  }
+}
 
 
 pre.aligned {
